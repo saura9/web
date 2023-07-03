@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const reverseNumber = (number) => {
+            const reversedString=number.toString().split("").reverse().join("");
+            return parseInt(reversedString);
+        }
+        const given=17353;
+        const reversedNumber = reverseNumber(given);
+        document.write(reversedNumber);
+        
+    </script>
+    
+</body>
+</html>
